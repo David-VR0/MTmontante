@@ -43,23 +43,23 @@ m = Canvas(root, width=200, height=300)
 m.pack(fill="x")
 
 
-etiqueta1 = tk.Label(text="Montante", font=("Arial", 15))
-etiqueta1.place(x=150,y=10)
+etiqueta1 = tk.Label(text="Método de Montante", font=("Arial", 20))
+etiqueta1.place(x=80,y=10)
 
 
-etiqueta2 = tk.Label(text="x1 +", font=("Arial", 10))
+etiqueta2 = tk.Label(text="x\u2081 +", font=("Arial", 15))
 etiqueta2.place(x=60,y=100)
 
 entrada = tk.Entry(width=4,textvariable=ax)
 entrada.place(x=30,y=100)
 
-etiqueta3 = tk.Label(text="x2 +", font=("Arial", 10))
+etiqueta3 = tk.Label(text="x\u2082 +", font=("Arial", 15))
 etiqueta3.place(x=120,y=100)
 
 entrada1 = tk.Entry(width=4,textvariable=ay)
 entrada1.place(x=90,y=100)
 
-etiqueta4 = tk.Label(text="x3 =", font=("Arial", 10))
+etiqueta4 = tk.Label(text="x\u2083 =", font=("Arial", 15))
 etiqueta4.place(x=180,y=100)
 
 entrada2 = tk.Entry(width=4,textvariable=az)
@@ -68,19 +68,19 @@ entrada2.place(x=150,y=100)
 entradai = tk.Entry(width=4,textvariable=ag)
 entradai.place(x=215,y=100)
 
-etiqueta5 = tk.Label(text="x1 +", font=("Arial", 10))
+etiqueta5 = tk.Label(text="x\u2081 +", font=("Arial", 15))
 etiqueta5.place(x=60,y=130)
 
 entrada3 = tk.Entry(width=4,textvariable=bx)
 entrada3.place(x=30,y=130)
 
-etiqueta6 = tk.Label(text="x2 +", font=("Arial", 10))
+etiqueta6 = tk.Label(text="x\u2082 +", font=("Arial", 15))
 etiqueta6.place(x=120,y=130)
 
 entrada4 = tk.Entry(width=4,textvariable=by)
 entrada4.place(x=90,y=130)
 
-etiqueta7 = tk.Label(text="x3 =", font=("Arial", 10))
+etiqueta7 = tk.Label(text="x\u2083 =", font=("Arial", 15))
 etiqueta7.place(x=180,y=130)
 
 entrada5 = tk.Entry(width=4,textvariable=bz)
@@ -89,19 +89,19 @@ entrada5.place(x=150,y=130)
 entradai1 = tk.Entry(width=4,textvariable=bg)
 entradai1.place(x=215,y=130)
 
-etiqueta8 = tk.Label(text="x1 +", font=("Arial", 10))
+etiqueta8 = tk.Label(text="x\u2081 +", font=("Arial", 15))
 etiqueta8.place(x=60,y=160)
 
 entrada6 = tk.Entry(width=4,textvariable=cx)
 entrada6.place(x=30,y=160)
 
-etiqueta9 = tk.Label(text="x2 +", font=("Arial", 10))
+etiqueta9 = tk.Label(text="x\u2082 +", font=("Arial", 15))
 etiqueta9.place(x=120,y=160)
 
 entrada7 = tk.Entry(width=4,textvariable=cy)
 entrada7.place(x=90,y=160)
 
-etiqueta10 = tk.Label(text="x3 =", font=("Arial", 10))
+etiqueta10 = tk.Label(text="x\u2083 =", font=("Arial", 15))
 etiqueta10.place(x=180,y=160)
 
 entrada8 = tk.Entry(width=4,textvariable=cz)
@@ -113,7 +113,7 @@ entradai2.place(x=215,y=160)
 
 
 boton1 = tk.Button(text="Iniciar", command=antr)
-boton1.place(x=180,y=180)
+boton1.place(x=280,y=130)
 
 etiqueta11 = tk.Label(text="x1 =", font=("Arial", 10))
 etiqueta11.place(x=30,y=210)
