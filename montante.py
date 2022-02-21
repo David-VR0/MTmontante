@@ -29,9 +29,9 @@ def resolver(matriz,a1,a2,a3):
     print("\n".join([''.join(['{:6}'.format(item) for item in row]) for row in matriz]))
     det = matriz[0][0]
     print("\n Determinante:",det)
-    x = a1 * matriz[0][3] / det + a2 * matriz[0][4] / det + a3 * matriz[0][5] / det
-    y = a1 * matriz[1][3] / det + a2 * matriz[1][4] / det + a3 * matriz[1][5] / det
-    z = a1 * matriz[2][3] / det + a2 * matriz[2][4] / det + a3 * matriz[2][5] / det
+    x = round(a1 * matriz[0][3] / det + a2 * matriz[0][4] / det + a3 * matriz[0][5] / det,6)
+    y = round(a1 * matriz[1][3] / det + a2 * matriz[1][4] / det + a3 * matriz[1][5] / det,6)
+    z = round(a1 * matriz[2][3] / det + a2 * matriz[2][4] / det + a3 * matriz[2][5] / det,6)
 
     inversa = [[0,0,0], [0,0,0], [0,0,0]]
     for i in range(0, 3):
